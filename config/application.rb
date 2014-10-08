@@ -21,6 +21,7 @@ module Pinteresting
     # config.i18n.default_locale = :de
 
     # Required for Heroku
+    config.assets.paths << "#{Rails}/vendor/assets/fonts"
     config.assets.initialize_on_precompile = false
   end
 end
